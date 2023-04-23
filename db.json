@@ -1,0 +1,22 @@
+{
+  "UserDetails": [
+    {
+      "Id": 0,
+      "Name": "patel",
+      "Email": "patel@gmaul.com",
+      "Mobile": 9595923799,
+      "Address": "latur",
+      "Service": "tee",
+      "id": 1
+    },
+    {
+      "Id": 0,
+      "Name": "sk",
+      "Email": "sk@gmail.com",
+      "Mobile": 7719952904,
+      "Address": "hyd",
+      "Service": "coffee",
+      "id": 2
+    }
+  ]
+}
