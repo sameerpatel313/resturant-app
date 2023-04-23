@@ -17,6 +17,22 @@
       "Address": "hyd",
       "Service": "coffee",
       "id": 2
+    },
+    {
+      "id": 3,
+      "Name": "ett",
+      "Email": "8123@gmail.com",
+      "Mobile": 34567887,
+      "Address": "uk",
+      "Service": "burger"
+    },
+    {
+      "id": 4,
+      "Name": "KFC",
+      "Email": "kfc@gmail.com",
+      "Mobile": 789667781,
+      "Address": "USA",
+      "Service": "chicken"
     }
   ]
 }
