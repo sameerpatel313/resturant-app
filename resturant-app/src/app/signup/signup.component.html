@@ -1,0 +1,37 @@
+<p>signup works!</p>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>Restaurent signup</h1>
+                    <h6> ❤Get Free To Membership❤</h6>
+                </div>
+                <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1"  class="form-label">Name</label>
+                        <input type="name" formControlName="name" placeholder="Enter Name" style="border-color: blue;" class="form-control " id="exampleInputEmail1" aria-describedby="Name">
+ 
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1"  class="form-label">Email address</label>
+                        <input type="email" formControlName="email" placeholder="Enter Email" style="border-color: blue;" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Mobile Number</label>
+                        <input type="number" formControlName="mobile" placeholder="Enter mobile Number" style="border-color: blue;" class="form-control " id="exampleInputEmail1" aria-describedby="mobilenumber">
+                         </div>
+                    
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1"  class="form-label">Password</label>
+                      <input type="password" formControlName="password" placeholder="Enter Valid Password" style="border-color: blue;" class="form-control" id="exampleInputPassword1">
+                    </div>
+                   
+                    <button type="submit"  class="btn btn-primary">signup</button>
+                  </form>
+                  <a routerLink="/login">Aleardy Registered? Click to Login</a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -33,6 +33,44 @@
       "Mobile": 789667781,
       "Address": "USA",
       "Service": "chicken"
+    },
+    {
+      "id": 5,
+      "Name": "dfc",
+      "Email": "dfc@123gmail.com",
+      "Mobile": 6792478914,
+      "Address": "paris",
+      "Service": "spicy foods"
+    }
+  ],
+  "signup": [
+    {
+      "name": "sameer patel",
+      "email": "sameer@gmail.com",
+      "mobile": 9595923799,
+      "password": "sam@123",
+      "id": 1
+    },
+    {
+      "name": "pathan Nasib",
+      "email": "pathan@123gmail.com",
+      "mobile": 7719952904,
+      "password": "pathan@145",
+      "id": 2
+    },
+    {
+      "name": "patel",
+      "email": "patel@gmail.com",
+      "mobile": 9423819033,
+      "password": "123456",
+      "id": 3
+    },
+    {
+      "name": "Rolex",
+      "email": "Rolex123@gmail.com",
+      "mobile": 9872348923,
+      "password": "rolex123",
+      "id": 4
     }
   ]
 }
